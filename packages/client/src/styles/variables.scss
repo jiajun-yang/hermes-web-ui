@@ -1,111 +1,111 @@
-// 黑白水墨 — Pure Ink
-// 纯黑白灰，无彩色
+// 科技蓝 — Tech Blue
+// 主色 #2563eb / #3b82f6，深蓝黑背景，cyan 辅助
 // 支持 light / dark 双主题
 
 // ─── CSS Custom Properties ─────────────────────────────────────
 
 :root {
   // Backgrounds
-  --bg-primary: #fafafa;
-  --bg-secondary: #f0f0f0;
-  --bg-sidebar: #f5f5f5;
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-sidebar: #ffffff;
   --bg-card: #ffffff;
-  --bg-card-hover: #fafafa;
+  --bg-card-hover: #f8fafc;
   --bg-input: #ffffff;
 
   // Borders
-  --border-color: #e0e0e0;
-  --border-light: #ebebeb;
+  --border-color: #e2e8f0;
+  --border-light: #f1f5f9;
 
   // Accent
-  --accent-primary: #333333;
-  --accent-hover: #1a1a1a;
-  --accent-muted: #888888;
+  --accent-primary: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-muted: #94a3b8;
 
   // Text
-  --text-primary: #1a1a1a;
-  --text-secondary: #666666;
-  --text-muted: #999999;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
 
   // Status
-  --success: #2e7d32;
-  --error: #c62828;
-  --warning: #f57f17;
+  --success: #059669;
+  --error: #dc2626;
+  --warning: #d97706;
 
   // Message bubbles
-  --msg-user-bg: #f5f5f5;
-  --msg-assistant-bg: #f5f5f5;
-  --msg-system-border: #bdbdbd;
+  --msg-user-bg: #eff6ff;
+  --msg-assistant-bg: #ffffff;
+  --msg-system-border: #bfdbfe;
 
   // Code
-  --code-bg: #f4f4f4;
+  --code-bg: #f1f5f9;
 
   // Utility
   --text-on-accent: #ffffff;
   --text-on-overlay: #ffffff;
-  --accent-info: #4a90d9;
+  --accent-info: #06b6d4;
 
   // RGB components (for rgba() usage)
-  --accent-primary-rgb: 51, 51, 51;
-  --accent-hover-rgb: 26, 26, 26;
-  --text-primary-rgb: 26, 26, 26;
-  --text-muted-rgb: 153, 153, 153;
-  --success-rgb: 46, 125, 50;
-  --error-rgb: 198, 40, 40;
-  --warning-rgb: 245, 127, 23;
-  --accent-info-rgb: 74, 144, 217;
+  --accent-primary-rgb: 37, 99, 235;
+  --accent-hover-rgb: 29, 78, 216;
+  --text-primary-rgb: 15, 23, 42;
+  --text-muted-rgb: 148, 163, 184;
+  --success-rgb: 5, 150, 105;
+  --error-rgb: 220, 38, 38;
+  --warning-rgb: 217, 119, 6;
+  --accent-info-rgb: 6, 182, 212;
 }
 
 .dark {
   // Backgrounds
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #252525;
-  --bg-sidebar: #202020;
-  --bg-card: #333333;
-  --bg-card-hover: #333333;
-  --bg-input: #2a2a2a;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-sidebar: #1e293b;
+  --bg-card: #1e293b;
+  --bg-card-hover: #334155;
+  --bg-input: #1e293b;
 
   // Borders
-  --border-color: #3a3a3a;
-  --border-light: #333333;
+  --border-color: #334155;
+  --border-light: #1e293b;
 
   // Accent
-  --accent-primary: #e0e0e0;
-  --accent-hover: #f5f5f5;
-  --accent-muted: #888888;
+  --accent-primary: #3b82f6;
+  --accent-hover: #60a5fa;
+  --accent-muted: #64748b;
 
   // Text
-  --text-primary: #f0f0f0;
-  --text-secondary: #c0c0c0;
-  --text-muted: #888888;
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
 
   // Status
-  --success: #66bb6a;
-  --error: #ef5350;
-  --warning: #ffb74d;
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
 
   // Message bubbles
-  --msg-user-bg: #252525;
-  --msg-assistant-bg: #252525;
-  --msg-system-border: #555555;
+  --msg-user-bg: #1e293b;
+  --msg-assistant-bg: #1e293b;
+  --msg-system-border: #3b82f6;
 
   // Code
-  --code-bg: #1e1e1e;
+  --code-bg: #1e293b;
 
   // Utility
-  --text-on-accent: #1a1a1a;
+  --text-on-accent: #ffffff;
   --text-on-overlay: #ffffff;
-  --accent-info: #6ba3d6;
+  --accent-info: #22d3ee;
 
   // RGB components
-  --accent-primary-rgb: 240, 240, 240;
-  --accent-hover-rgb: 245, 245, 245;
-  --text-primary-rgb: 240, 240, 240;
-  --text-muted-rgb: 136, 136, 136;
-  --success-rgb: 102, 187, 106;
-  --error-rgb: 239, 83, 80;
-  --warning-rgb: 255, 183, 77;
-  --accent-info-rgb: 107, 163, 214;
+  --accent-primary-rgb: 59, 130, 246;
+  --accent-hover-rgb: 96, 165, 250;
+  --text-primary-rgb: 241, 245, 249;
+  --text-muted-rgb: 100, 116, 139;
+  --success-rgb: 34, 197, 94;
+  --error-rgb: 239, 68, 68;
+  --warning-rgb: 245, 158, 11;
+  --accent-info-rgb: 34, 211, 238;
 }
 
 // ─── SCSS Variables (delegate to CSS custom properties) ────────
@@ -147,8 +147,8 @@ $msg-system-border: var(--msg-system-border);
 $code-bg: var(--code-bg);
 
 // Typography
-$font-ui: 'Inter', system-ui, -apple-system, sans-serif;
-$font-code: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+$font-ui: "Inter", system-ui, -apple-system, sans-serif;
+$font-code: "JetBrains Mono", "Fira Code", "Consolas", monospace;
 
 // Layout
 $sidebar-width: 240px;
