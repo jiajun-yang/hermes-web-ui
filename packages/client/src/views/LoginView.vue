@@ -220,7 +220,7 @@ async function handlePasswordLogin() {
     transition: all $transition-fast;
 
     &.active {
-      background: $text-primary;
+      background: $accent-primary;
       color: var(--text-on-accent);
     }
 
@@ -269,7 +269,7 @@ async function handlePasswordLogin() {
   padding: 14px;
   border: none;
   border-radius: $radius-sm;
-  background: $text-primary;
+  background: $accent-primary;
   color: var(--text-on-accent);
   font-size: 15px;
   font-weight: 500;
